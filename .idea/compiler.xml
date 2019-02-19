@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="communitygroup_base" />
         <module name="communitygroup_common" />
+        <module name="communitygroup_recruit" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="communitygroup_base" options="-parameters" />
       <module name="communitygroup_common" options="-parameters" />
+      <module name="communitygroup_recruit" options="-parameters" />
     </option>
   </component>
 </project>

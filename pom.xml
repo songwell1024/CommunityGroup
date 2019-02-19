@@ -10,6 +10,7 @@
     <modules>
         <module>communitygroup_common</module>
         <module>communitygroup_base</module>
+        <module>communitygroup_recruit</module>
     </modules>
     <packaging>pom</packaging>
 
