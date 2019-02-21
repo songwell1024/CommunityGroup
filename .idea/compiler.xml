@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="communitygroup_article" />
         <module name="communitygroup_base" />
         <module name="communitygroup_common" />
+        <module name="communitygroup_gathering" />
         <module name="communitygroup_qa" />
         <module name="communitygroup_recruit" />
       </profile>
@@ -15,8 +17,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="communitygroup_article" options="-parameters" />
       <module name="communitygroup_base" options="-parameters" />
       <module name="communitygroup_common" options="-parameters" />
+      <module name="communitygroup_gathering" options="-parameters" />
       <module name="communitygroup_qa" options="-parameters" />
       <module name="communitygroup_recruit" options="-parameters" />
     </option>

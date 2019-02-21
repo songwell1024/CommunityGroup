@@ -8,6 +8,8 @@
     <ignored path="$PROJECT_DIR$/communitygroup_base/target/" />
     <ignored path="$PROJECT_DIR$/communitygroup_recruit/target/" />
     <ignored path="$PROJECT_DIR$/communitygroup_qa/target/" />
+    <ignored path="$PROJECT_DIR$/communitygroup_article/target/" />
+    <ignored path="$PROJECT_DIR$/communitygroup_gathering/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/dao/ReplyDao.java">
+        <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/controller/ColumnController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" column="94" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+            <state relative-caret-position="450">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,10 +31,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/dao/ProblemDao.java">
+        <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/dao/ArticleDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
+            <state relative-caret-position="143">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,22 +43,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/pojo/Problem.java">
+        <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/service/ArticleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="725">
+              <caret line="92" column="89" selection-start-line="92" selection-start-column="89" selection-end-line="92" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#findSearch#0;class#ArticleService#0" />
+                <element signature="method#findSearch#1;class#ArticleService#0" />
+                <element signature="e#2275#2276#0" expanded="true" />
+                <element signature="e#2306#2307#0" expanded="true" />
+                <element signature="e#2376#2377#0" expanded="true" />
+                <element signature="e#2409#2410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/dao/GatheringDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/service/GatheringService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1940#1941#0" expanded="true" />
+                <element signature="e#1985#1986#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/controller/ProblemController.java">
+        <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/GatheringApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3375">
-              <caret line="137" column="52" selection-start-line="137" selection-start-column="52" selection-end-line="137" selection-end-column="52" />
+            <state relative-caret-position="493">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,31 +108,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/QaApplication.java">
+        <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/controller/BaseExceptionHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="247">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/ArticleApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
               <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/controller/ReplyController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-670">
-              <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,12 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/communitygroup_common/src/main/java/entity/Result.java" />
-        <option value="$PROJECT_DIR$/communitygroup_common/src/main/java/entity/PageResult.java" />
-        <option value="$PROJECT_DIR$/communitygroup_common/src/main/java/entity/StatusCode.java" />
-        <option value="$PROJECT_DIR$/communitygroup_base/pom.xml" />
-        <option value="$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/base/BaseApplication.java" />
-        <option value="$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/pojo/label.java" />
         <option value="$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/dao/LabelDao.java" />
         <option value="$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/service/LabelService.java" />
         <option value="$PROJECT_DIR$/communitygroup_base/src/main/resources/application.yml" />
@@ -149,6 +174,24 @@
         <option value="$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/service/ProblemService.java" />
         <option value="$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/dao/ProblemDao.java" />
         <option value="$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/controller/ProblemController.java" />
+        <option value="$PROJECT_DIR$/communitygroup_article/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/ArticleApplication.java" />
+        <option value="$PROJECT_DIR$/communitygroup_gathering/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_gathering/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/GatheringApplication.java" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/dao/ChannelDao.java" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/dao/ColumnDao.java" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/service/ChannelService.java" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/service/ColumnService.java" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/controller/ChannelController.java" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/controller/ColumnController.java" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/dao/GatheringDao.java" />
+        <option value="$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/controller/GatheringController.java" />
+        <option value="$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/service/GatheringService.java" />
       </list>
     </option>
   </component>
@@ -202,8 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,75 +255,75 @@
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_gathering" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_gathering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_qa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_gathering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_gathering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_gathering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_gathering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="communitygroup" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_gathering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="communitygroup" type="462c0819:PsiDirectoryNode" />
-              <item name="qa" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="gathering" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_qa" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_gathering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup" type="462c0819:PsiDirectoryNode" />
+              <item name="gathering" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_gathering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -291,6 +332,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,8 +343,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550662211725" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550733803798" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -311,11 +354,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA-workspace\CommunityGroup\communitygroup_gathering\src\main\java\com\communitygroup\gathering" />
+      <recent name="E:\IDEA-workspace\CommunityGroup\communitygroup_article\src\main\java\com\communitygroup\article" />
       <recent name="E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\service" />
       <recent name="E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\pojo" />
       <recent name="E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\dao" />
-      <recent name="E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\controller" />
-      <recent name="E:\IDEA-workspace\CommunityGroup\communitygroup_recruit\src\main\java\com\communitygroup\recruit\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -330,7 +373,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.QaApplication">
+  <component name="RunManager" selected="Spring Boot.GatheringApplication">
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="communitygroup_article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.communitygroup.article.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.communitygroup.article.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="communitygroup_base" />
       <extension name="coverage">
@@ -340,6 +396,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.communitygroup.base.BaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatheringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="communitygroup_gathering" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.communitygroup.gathering.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.communitygroup.gathering.GatheringApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -372,6 +441,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatheringApplication" />
+        <item itemvalue="Spring Boot.ArticleApplication" />
         <item itemvalue="Spring Boot.QaApplication" />
         <item itemvalue="Spring Boot.RecruitApplication" />
         <item itemvalue="Spring Boot.BaseApplication" />
@@ -400,16 +471,19 @@
       <workItem from="1550629565253" duration="4362000" />
       <workItem from="1550639978419" duration="6977000" />
       <workItem from="1550656775704" duration="5413000" />
+      <workItem from="1550713448141" duration="598000" />
+      <workItem from="1550717727750" duration="1315000" />
+      <workItem from="1550729747729" duration="4004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39746000" />
+    <option name="totallyTimeSpent" value="45663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49801588" visible="true" weight="0.27120823" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49801588" visible="true" weight="0.20437019" />
       <window_info id="Structure" order="1" sideWeight="0.5019841" side_tool="true" weight="0.26285347" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -448,154 +522,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/communitygroup_common/src/main/java/util/IdWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_common/src/main/java/entity/StatusCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/maven_repository/org/springframework/data/spring-data-jpa/2.0.6.RELEASE/spring-data-jpa-2.0.6.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_common/src/main/java/entity/Result.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/maven_repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/RestController.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/maven_repository/org/springframework/data/spring-data-commons/2.0.6.RELEASE/spring-data-commons-2.0.6.RELEASE.jar!/org/springframework/data/domain/Unpaged.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/maven_repository/org/springframework/data/spring-data-commons/2.0.6.RELEASE/spring-data-commons-2.0.6.RELEASE.jar!/org/springframework/data/domain/Pageable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/maven_repository/org/springframework/data/spring-data-commons/2.0.6.RELEASE/spring-data-commons-2.0.6.RELEASE.jar!/org/springframework/data/domain/AbstractPageRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/base/controller/LabelController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="96" column="18" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_common/src/main/java/entity/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/base/service/LabelService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="129" column="122" selection-start-line="129" selection-start-column="107" selection-end-line="129" selection-end-column="122" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1286#1287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/base/BaseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/base/pojo/Label.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/base/dao/LabelDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/base/controller/BaseExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -764,20 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_recruit/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="21" column="57" selection-start-line="20" selection-start-column="12" selection-end-line="21" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_recruit/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="136" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="136" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/communitygroup_qa/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
@@ -792,20 +704,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/QaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/pojo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/QaApplication.java" />
+    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/pojo.java" />
     <entry file="file://$PROJECT_DIR$/communitygroup_recruit/src/main/java/com/communitygroup/recruit/controller/BaseExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -856,17 +756,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/dao/ReplyDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        <state relative-caret-position="225">
+          <caret line="15" column="94" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/QaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
+        <state relative-caret-position="400">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/controller/ReplyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_recruit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="28" column="21" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/controller/ProblemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="137" column="52" selection-start-line="137" selection-start-column="52" selection-end-line="137" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -875,17 +812,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/pojo/Problem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="625">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_recruit/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="136" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/dao/ProblemDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="643">
           <caret line="41" column="73" selection-start-line="41" selection-start-column="73" selection-end-line="41" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -893,30 +837,211 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/dao/ReplyDao.java">
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="94" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+        <state relative-caret-position="443">
+          <caret line="33" column="21" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/pojo/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1175">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/controller/ReplyController.java">
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/dao/ColumnDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-670">
-          <caret line="61" column="50" selection-start-line="61" selection-start-column="50" selection-end-line="61" selection-end-column="50" />
+        <state relative-caret-position="325">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/controller/ProblemController.java">
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/dao/ChannelDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3375">
-          <caret line="137" column="52" selection-start-line="137" selection-start-column="52" selection-end-line="137" selection-end-column="52" />
+        <state relative-caret-position="275">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/service/ColumnService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-950">
+          <caret line="45" column="18" lean-forward="true" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/service/ChannelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-185">
+          <caret line="38" column="14" lean-forward="true" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/controller/ColumnController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/controller/BaseExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/controller/ChannelController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1479">
+          <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/maven_repository/org/springframework/data/spring-data-redis/2.0.6.RELEASE/spring-data-redis-2.0.6.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2976">
+          <caret line="775" column="44" selection-start-line="775" selection-start-column="33" selection-end-line="775" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/ArticleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/dao/ArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="92" column="89" selection-start-line="92" selection-start-column="89" selection-end-line="92" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#findSearch#0;class#ArticleService#0" />
+            <element signature="method#findSearch#1;class#ArticleService#0" />
+            <element signature="e#2275#2276#0" expanded="true" />
+            <element signature="e#2306#2307#0" expanded="true" />
+            <element signature="e#2376#2377#0" expanded="true" />
+            <element signature="e#2409#2410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/pojo/Gathering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/dao/GatheringDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/controller/BaseExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/controller/GatheringController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/service/GatheringService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="109" column="45" selection-start-line="109" selection-start-column="45" selection-end-line="109" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1940#1941#0" expanded="true" />
+            <element signature="e#1985#1986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/java/com/communitygroup/gathering/GatheringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -975,7 +1100,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>communitygroup_common</last-edited>
+          <last-edited>communitygroup_gathering</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

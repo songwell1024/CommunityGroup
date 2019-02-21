@@ -12,6 +12,8 @@
         <module>communitygroup_base</module>
         <module>communitygroup_recruit</module>
         <module>communitygroup_qa</module>
+        <module>communitygroup_article</module>
+        <module>communitygroup_gathering</module>
     </modules>
     <packaging>pom</packaging>
 
