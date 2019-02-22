@@ -12,6 +12,7 @@
         <module name="communitygroup_gathering" />
         <module name="communitygroup_qa" />
         <module name="communitygroup_recruit" />
+        <module name="communitygroup_spit" />
       </profile>
     </annotationProcessing>
   </component>
@@ -23,6 +24,7 @@
       <module name="communitygroup_gathering" options="-parameters" />
       <module name="communitygroup_qa" options="-parameters" />
       <module name="communitygroup_recruit" options="-parameters" />
+      <module name="communitygroup_spit" options="-parameters" />
     </option>
   </component>
 </project>

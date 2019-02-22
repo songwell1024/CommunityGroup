@@ -14,6 +14,7 @@
         <module>communitygroup_qa</module>
         <module>communitygroup_article</module>
         <module>communitygroup_gathering</module>
+        <module>communitygroup_spit</module>
     </modules>
     <packaging>pom</packaging>
 
