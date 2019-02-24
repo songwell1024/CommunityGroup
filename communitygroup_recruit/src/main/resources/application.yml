@@ -11,3 +11,7 @@ spring:
   jpa:
     database: mysql
     show-sql: true
+  data:
+    mongodb:
+      host: 121.248.48.100
+      database: recruitdb
