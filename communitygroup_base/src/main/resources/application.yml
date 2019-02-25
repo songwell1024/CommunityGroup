@@ -5,7 +5,7 @@ spring:
     name: communitygroup-base
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.245.128:3306/tensquare_base?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://121.248.48.100:3306/tensquare_base?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
     username: root
     password: root
   jpa:
