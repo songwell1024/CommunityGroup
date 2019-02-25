@@ -16,6 +16,7 @@
         <module>communitygroup_gathering</module>
         <module>communitygroup_spit</module>
         <module>communitygroup_search</module>
+        <module>communitygroup_user</module>
     </modules>
     <packaging>pom</packaging>
 
