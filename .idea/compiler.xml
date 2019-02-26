@@ -13,6 +13,7 @@
         <module name="communitygroup_qa" />
         <module name="communitygroup_recruit" />
         <module name="communitygroup_search" />
+        <module name="communitygroup_sms" />
         <module name="communitygroup_spit" />
         <module name="communitygroup_user" />
       </profile>
@@ -27,6 +28,7 @@
       <module name="communitygroup_qa" options="-parameters" />
       <module name="communitygroup_recruit" options="-parameters" />
       <module name="communitygroup_search" options="-parameters" />
+      <module name="communitygroup_sms" options="-parameters" />
       <module name="communitygroup_spit" options="-parameters" />
       <module name="communitygroup_user" options="-parameters" />
     </option>

@@ -1,0 +1,13 @@
+server:
+  port: 9009
+spring:
+  application:
+    name: communitygroup-sms
+  rabbitmq:
+    host: 121.248.48.100
+aliyun:
+  sms:
+    accessKeyId: secert
+    accessKeySecret: sercert
+    template_code: SMS_85735065
+    sign_name: 宋的个人测试
