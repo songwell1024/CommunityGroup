@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.communitygroup.user.pojo.Admin;
+import com.communitygroup.user.pojo.User;
 import com.communitygroup.user.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -75,11 +76,11 @@ public class AdminController {
     }
 	
 	/**
-	 * 增加
+	 * 注册
 	 * @param admin
 	 */
 	@RequestMapping(method=RequestMethod.POST)
-	public Result add(@RequestBody Admin admin  ){
+	public Result add(@RequestBody Admin admin ){
 		adminService.add(admin);
 		return new Result(true,StatusCode.OK,"增加成功");
 	}
@@ -103,6 +104,20 @@ public class AdminController {
 	public Result delete(@PathVariable String id ){
 		adminService.deleteById(id);
 		return new Result(true,StatusCode.OK,"删除成功");
+	}
+
+	/**
+	 * 用户登录
+	 * @param admin
+	 * @return
+	 */
+	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	public Result login(@RequestBody Admin admin){
+		Admin findAdmin = adminService.findByLoginName(admin.getLoginname(), admin.getPassword());
+		if (findAdmin == null || "".equals(findAdmin)){
+			return new Result(false, StatusCode.LOGINERROR, "用户名或密码错误");
+		}
+		return new Result(true,StatusCode.OK, "登录成功");
 	}
 	
 }

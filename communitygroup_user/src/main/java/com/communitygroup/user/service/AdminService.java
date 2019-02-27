@@ -19,6 +19,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import org.springframework.transaction.annotation.Transactional;
@@ -39,6 +40,9 @@ public class AdminService {
 	
 	@Autowired
 	private IdWorker idWorker;
+
+	@Autowired
+	BCryptPasswordEncoder bCryptPasswordEncoder;
 
 	/**
 	 * 查询全部列表
@@ -83,11 +87,13 @@ public class AdminService {
 	}
 
 	/**
-	 * 增加
+	 * 增加,使用bCryptPasswordEncoder对密码进行加密
 	 * @param admin
 	 */
 	public void add(Admin admin) {
 		admin.setId( idWorker.nextId()+"" );
+		String bCryptPassword = bCryptPasswordEncoder.encode(admin.getPassword());
+		admin.setPassword(bCryptPassword);
 		adminDao.save(admin);
 	}
 
@@ -105,6 +111,21 @@ public class AdminService {
 	 */
 	public void deleteById(String id) {
 		adminDao.deleteById(id);
+	}
+
+	/**
+	 * 登录验证
+	 * @param loginname
+	 * @param password
+	 * @return
+	 */
+	public Admin findByLoginName(String loginname, String password){
+		Admin admin = adminDao.findByLoginname(loginname);
+		if (admin != null && !"".equals(admin) && bCryptPasswordEncoder.matches(password, admin.getPassword())){
+			return admin;
+		}else {
+			return null;
+		}
 	}
 
 	/**

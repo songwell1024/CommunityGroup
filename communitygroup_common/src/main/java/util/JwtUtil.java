@@ -9,8 +9,10 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import java.util.Date;
 
 /**
+ * @ConfigurationProperties("*****") 注解,加上该注解后,就会注入在application.properties中*****r开头的属性
  * Created by Administrator on 2018/4/11.
  */
+
 @ConfigurationProperties("jwt.config")
 public class JwtUtil {
 
