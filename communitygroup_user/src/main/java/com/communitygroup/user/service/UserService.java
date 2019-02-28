@@ -22,6 +22,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import org.springframework.transaction.annotation.Transactional;
@@ -49,6 +50,9 @@ public class UserService {
 
 	@Autowired
 	private RabbitTemplate rabbitTemplate;
+
+	@Autowired
+	BCryptPasswordEncoder bCryptPasswordEncoder;
 
 	/**
 	 * 查询全部列表
@@ -93,11 +97,13 @@ public class UserService {
 	}
 
 	/**
-	 * 增加
+	 * 增加, 密码加密
 	 * @param user
 	 */
 	public void add(User user) {
 		user.setId( idWorker.nextId()+"" );
+		String password = bCryptPasswordEncoder.encode(user.getPassword());
+		user.setPassword(password);
 		userDao.save(user);
 	}
 
@@ -170,6 +176,21 @@ public class UserService {
 		user.setUpdatedate(new Date());//更新日期
 		user.setLastdate(new Date());//最后登陆日期
 		userDao.save(user);
+	}
+
+	/**
+	 * 登录验证
+	 * @param mobile
+	 * @param password
+	 * @return
+	 */
+	public User findByPasswordAndMobile(String mobile, String password){
+		User user = userDao.findByMobile(mobile);
+		if (user != null && bCryptPasswordEncoder.matches(password,user.getPassword())){
+			return user;
+		}else {
+			return null;
+		}
 	}
 
 	/**

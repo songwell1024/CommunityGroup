@@ -126,5 +126,14 @@ public class UserController {
 		userService.register(user, code);
 		return new Result(true, StatusCode.OK, "注册成功");
 	}
+
+	@RequestMapping(value = "/login",method = RequestMethod.POST)
+	public Result login(@RequestBody User user){
+		User newUser = userService.findByPasswordAndMobile(user.getMobile(), user.getPassword());
+		if (newUser == null || "".equals(newUser)){
+			return new Result(false, StatusCode.LOGINERROR, "用户名密码错误");
+		}
+		return new Result(true, StatusCode.OK, "登录成功");
+	}
 	
 }
