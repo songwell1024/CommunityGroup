@@ -4,6 +4,7 @@ import java.util.Map;
 
 import com.communitygroup.qa.pojo.Problem;
 import com.communitygroup.qa.service.ProblemService;
+import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +13,9 @@ import org.springframework.web.bind.annotation.*;
 import entity.PageResult;
 import entity.Result;
 import entity.StatusCode;
+
+import javax.servlet.http.HttpServletRequest;
+
 /**
  * 控制器层
  * @author Administrator
@@ -74,7 +78,11 @@ public class ProblemController {
 	 * @param problem
 	 */
 	@RequestMapping(method=RequestMethod.POST)
-	public Result add(@RequestBody Problem problem  ){
+	public Result add(HttpServletRequest request, @RequestBody Problem problem  ){
+		 Claims user_claim = (Claims) request.getAttribute("admin_claim");
+		 if (user_claim == null || "".equals(user_claim)){
+			 return new Result(false,StatusCode.LOGINERROR,"请先登录");
+		 }
 		problemService.add(problem);
 		return new Result(true,StatusCode.OK,"增加成功");
 	}

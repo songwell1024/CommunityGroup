@@ -5,9 +5,13 @@ spring:
     name: communitygroup-qa
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.245.128:3306/tensquare_qa?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://121.248.48.100:3306/tensquare_qa?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
     username: root
     password: root
   jpa:
     show-sql: true
     database: mysql
+jwt:
+  config:
+    key: jwttest
+    ttl: 3600000

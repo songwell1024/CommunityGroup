@@ -15,3 +15,7 @@ spring:
     host: 121.248.48.100
   redis:
     host: 121.248.48.100
+jwt:
+  config:
+    key: jwttest
+    ttl: 3600000
