@@ -9,6 +9,7 @@
         <module name="communitygroup_article" />
         <module name="communitygroup_base" />
         <module name="communitygroup_common" />
+        <module name="communitygroup_eureka" />
         <module name="communitygroup_gathering" />
         <module name="communitygroup_qa" />
         <module name="communitygroup_recruit" />
@@ -24,6 +25,7 @@
       <module name="communitygroup_article" options="-parameters" />
       <module name="communitygroup_base" options="-parameters" />
       <module name="communitygroup_common" options="-parameters" />
+      <module name="communitygroup_eureka" options="-parameters" />
       <module name="communitygroup_gathering" options="-parameters" />
       <module name="communitygroup_qa" options="-parameters" />
       <module name="communitygroup_recruit" options="-parameters" />

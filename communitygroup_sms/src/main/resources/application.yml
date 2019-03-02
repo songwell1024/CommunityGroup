@@ -11,3 +11,9 @@ aliyun:
     accessKeySecret: sercert
     template_code: SMS_85735065
     sign_name: 宋的个人测试
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6868/eureka/
+  instance:
+    prefer-ip-address: true

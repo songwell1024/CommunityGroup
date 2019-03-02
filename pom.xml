@@ -18,6 +18,8 @@
         <module>communitygroup_search</module>
         <module>communitygroup_user</module>
         <module>communitygroup_sms</module>
+        <module>communitygroupgroup_eureka</module>
+        <module>communitygroup_eureka</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -48,6 +50,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Finchley.M9</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <repositories>
         <repository>

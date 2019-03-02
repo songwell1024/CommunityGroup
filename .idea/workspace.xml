@@ -14,6 +14,7 @@
     <ignored path="$PROJECT_DIR$/communitygroup_search/target/" />
     <ignored path="$PROJECT_DIR$/communitygroup_user/target/" />
     <ignored path="$PROJECT_DIR$/communitygroup_sms/target/" />
+    <ignored path="$PROJECT_DIR$/communitygroup_eureka/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,25 +38,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/UserApplication.java">
+        <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/ArticleApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/interceptor/JwtInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/base/BaseApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="267">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -78,40 +73,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/communitygroup_spit/src/main/java/com/communitygroup/spit/controller/SpitController.java" />
-        <option value="$PROJECT_DIR$/communitygroup_recruit/pom.xml" />
-        <option value="$PROJECT_DIR$/communitygroup_recruit/src/main/java/com/communitygroup/recruit/pojo/Comment.java" />
-        <option value="$PROJECT_DIR$/communitygroup_recruit/src/main/java/com/communitygroup/recruit/dao/CommentDao.java" />
-        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/pojo/CommentDao.java" />
-        <option value="$PROJECT_DIR$/communitygroup_article/pom.xml" />
-        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/dao/CommentDao.java" />
-        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/service/CommentService.java" />
-        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/controller/CommentController.java" />
-        <option value="$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/SearchApplication.java" />
-        <option value="$PROJECT_DIR$/communitygroup_search/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/dao/ArticleDao.java" />
-        <option value="$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/controller/ArticleController.java" />
         <option value="$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/dao/ArticleSearchDao.java" />
         <option value="$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/service/ArticleSearchService.java" />
-        <option value="$PROJECT_DIR$/communitygroup_search/pom.xml" />
-        <option value="$PROJECT_DIR$/communitygroup_gathering/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/communitygroup_base/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/communitygroup_article/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/pojo/ArticleSearch.java" />
         <option value="$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/pojo/Article.java" />
         <option value="$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/controller/ArticleSearchController.java" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/pojo/Admin.java" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/pojo/User.java" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/util/ValidatorUtil.java" />
-        <option value="$PROJECT_DIR$/communitygroup_sms/pom.xml" />
         <option value="$PROJECT_DIR$/communitygroup_sms/src/main/java/com/communitygroup/sms/SmsApplication.java" />
         <option value="$PROJECT_DIR$/communitygroup_sms/src/main/java/com/communitygroup/sms/util/SmsUtil.java" />
-        <option value="$PROJECT_DIR$/communitygroup_sms/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/communitygroup_sms/src/main/java/com/communitygroup/sms/listener/SmsRabbitListener.java" />
         <option value="$PROJECT_DIR$/communitygroup_common/pom.xml" />
         <option value="$PROJECT_DIR$/communitygroup_common/src/main/java/util/JwtUtil.java" />
-        <option value="$PROJECT_DIR$/communitygroup_user/pom.xml" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/dao/AdminDao.java" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/service/AdminService.java" />
@@ -119,16 +93,37 @@
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/service/UserService.java" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/UserApplication.java" />
-        <option value="$PROJECT_DIR$/communitygroup_user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/config/JwtInterceptorConfig.java" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/QaApplication.java" />
-        <option value="$PROJECT_DIR$/communitygroup_qa/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/interceptor/JwtInterceptor.java" />
         <option value="$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/config/JwtInterceptorConfig.java" />
         <option value="$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/controller/ProblemController.java" />
-        <option value="$PROJECT_DIR$/communitygroup_recruit/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/interceptor/JwtInterceptor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_article/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_base/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_gathering/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_qa/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_recruit/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_search/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_sms/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_spit/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_user/pom.xml" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_base/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_gathering/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_eureka/src/main/java/com/communitygroup/eureka/EurekaServer.java" />
+        <option value="$PROJECT_DIR$/communitygroup_qa/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_recruit/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_search/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_sms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_spit/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/ArticleApplication.java" />
+        <option value="$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/base/BaseApplication.java" />
       </list>
     </option>
   </component>
@@ -148,25 +143,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="communitygroup_base" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="communitygroup_search" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="communitygroup_sms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="communitygroup_sms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -190,7 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -201,37 +178,61 @@
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_user" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_base" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_user" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_user" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
-              <item name="communitygroup_user" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_base" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_base" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
@@ -239,15 +240,20 @@
               <item name="communitygroup_user" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="communitygroup_parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CommunityGroup" type="462c0819:PsiDirectoryNode" />
+              <item name="communitygroup_user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,7 +263,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551337830980" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551342930454" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -287,7 +293,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication">
+  <component name="RunManager" selected="Spring Boot.ArticleApplication">
+    <configuration name="ArticleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="communitygroup_article" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.communitygroup.article.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.communitygroup.article.ArticleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="communitygroup_base" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.communitygroup.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.communitygroup.base.BaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="communitygroup_eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.communitygroup.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.communitygroup.eureka.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="communitygroup_qa" />
       <extension name="coverage">
@@ -297,45 +342,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.communitygroup.qa.QaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="communitygroup_search" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.communitygroup.search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.communitygroup.search.SearchApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="communitygroup_sms" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.communitygroup.sms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.communitygroup.sms.SmsApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="communitygroup_spit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.communitygroup.spit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.communitygroup.spit.SpitApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -355,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ArticleApplication" />
+        <item itemvalue="Spring Boot.BaseApplication" />
+        <item itemvalue="Spring Boot.EurekaServer" />
         <item itemvalue="Spring Boot.UserApplication" />
         <item itemvalue="Spring Boot.QaApplication" />
-        <item itemvalue="Spring Boot.SmsApplication" />
-        <item itemvalue="Spring Boot.SearchApplication" />
-        <item itemvalue="Spring Boot.SpitApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -406,17 +412,19 @@
       <workItem from="1551256113438" duration="826000" />
       <workItem from="1551319359059" duration="3372000" />
       <workItem from="1551334763553" duration="3033000" />
+      <workItem from="1551341105006" duration="857000" />
+      <workItem from="1551342030950" duration="729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91147000" />
+    <option name="totallyTimeSpent" value="92733000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49801588" visible="true" weight="0.25642672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49801588" visible="true" weight="0.35282776" />
       <window_info id="Structure" order="1" sideWeight="0.5019841" side_tool="true" weight="0.26285347" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -467,133 +475,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/dao/ArticleSearchDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="15" column="88" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/service/ArticleSearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#814#815#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/controller/ArticleSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="45" column="54" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/pojo/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_search/src/main/java/com/communitygroup/search/SearchApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_article/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_qa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_spit/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/pojo/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/controller/BaseExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12936">
-          <caret line="274" column="29" selection-start-line="274" selection-start-column="14" selection-end-line="274" selection-end-column="29" />
-          <folding>
-            <element signature="e#3504#3505#0" expanded="true" />
-            <element signature="e#3562#3563#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Program Files (x86)/apache-maven-3.6.0-bin/conf/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5882" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/util/ValidatorUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_sms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/communitygroup_sms/src/main/java/com/communitygroup/sms/listener.java" />
     <entry file="file://$PROJECT_DIR$/communitygroup_sms/src/main/java/com/communitygroup/sms/util/SmsUtil.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -685,20 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/service/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -738,13 +605,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -799,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/java/com/communitygroup/qa/QaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -820,50 +673,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_search/src/main/resources/application.yml">
+    <entry file="file://D:/Program Files (x86)/maven_repository/org/springframework/cloud/spring-cloud-dependencies/Finchley.M9/spring-cloud-dependencies-Finchley.M9.pom">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
-        </state>
+        <state relative-caret-position="-150" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_sms/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_spit/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_recruit/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroupgroup_eureka/pom.xml" />
     <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/UserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="550">
           <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -873,11 +691,182 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/java/com/communitygroup/user/interceptor/JwtInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        <state relative-caret-position="450">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_qa/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_recruit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_sms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_spit/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="643">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" selection-start-line="19" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_eureka/src/main/java/com/communitygroup/eureka/EurekaServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_gathering/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_qa/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_spit/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_sms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_search/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_recruit/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_article/src/main/java/com/communitygroup/article/ArticleApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communitygroup_base/src/main/java/com/communitygroup/base/BaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>

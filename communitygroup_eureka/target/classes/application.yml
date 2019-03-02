@@ -1,0 +1,11 @@
+server:
+  port: 6868
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false  #是否在注册到Eurka服务端上，本身就是服务端
+    fetchRegistry: false   #是否从注册中心获取注册信息
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
