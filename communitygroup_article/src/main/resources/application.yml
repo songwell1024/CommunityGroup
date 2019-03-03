@@ -19,7 +19,7 @@ spring:
       database: recruitdb
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://localhost:6868/eureka/
   instance:
     prefer-ip-address: true

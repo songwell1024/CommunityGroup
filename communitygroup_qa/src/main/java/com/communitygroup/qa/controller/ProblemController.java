@@ -2,6 +2,7 @@ package com.communitygroup.qa.controller;
 import java.util.List;
 import java.util.Map;
 
+import com.communitygroup.qa.om.communitygroup.qa.client.LabelClient;
 import com.communitygroup.qa.pojo.Problem;
 import com.communitygroup.qa.service.ProblemService;
 import io.jsonwebtoken.Claims;
@@ -28,6 +29,9 @@ public class ProblemController {
 
 	@Autowired
 	private ProblemService problemService;
+
+	@Autowired
+	private LabelClient labelClient;
 	
 	
 	/**
@@ -62,6 +66,8 @@ public class ProblemController {
 		Page<Problem> pageList = problemService.findSearch(searchMap, page, size);
 		return  new Result(true,StatusCode.OK,"查询成功",  new PageResult<Problem>(pageList.getTotalElements(), pageList.getContent()) );
 	}
+
+
 
 	/**
      * 根据条件查询
@@ -145,5 +151,15 @@ public class ProblemController {
 	public Result waitList(@PathVariable String labelid, @PathVariable Integer page, @PathVariable Integer size){
 		Page<Problem> pageData = problemService.waitList(labelid, page, size);
 		return new Result(true, StatusCode.OK, "查询成功", new PageResult<>(pageData.getTotalElements(),pageData.getContent()));
+	}
+
+	/**
+	 * 在问题模块通过使用Feign来调用base模块的通过id查询label
+	 * @param labelId
+	 * @return
+	 */
+	@RequestMapping(value = "/label/{labelId}", method = RequestMethod.GET)
+	public Result findLabelById(@PathVariable String labelId){
+		return labelClient.findLabelById(labelId);
 	}
 }

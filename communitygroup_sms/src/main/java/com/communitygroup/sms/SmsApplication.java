@@ -2,6 +2,7 @@ package com.communitygroup.sms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * @program:
@@ -11,6 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @Modified by:
  **/
 @SpringBootApplication
+@EnableEurekaClient
 public class SmsApplication {
 
     public static void main(String[] args){
