@@ -1,0 +1,23 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: communitygroup-friend
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://121.248.48.100:3306/tensquare_friend?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: root
+  jpa:
+    database: mysql
+    show-sql: true
+jwt:
+  config:
+    key: jwttest
+    ttl: 3600000
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:6868/eureka/
+  instance:
+    prefer-ip-address: true

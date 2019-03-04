@@ -20,6 +20,8 @@
         <module>communitygroup_sms</module>
         <module>communitygroupgroup_eureka</module>
         <module>communitygroup_eureka</module>
+        <module>com.communitygroup.friend</module>
+        <module>communitygroup_friend</module>
     </modules>
     <packaging>pom</packaging>
 
