@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /**
  * @program:
@@ -16,11 +17,13 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "tb_friend")
 @IdClass(Friend.class)  //表示联合主键，添加也可以，不添加也可以
-public class Friend {
+public class Friend implements Serializable {
     @Id
     private String userid;
     @Id
     private String friendid;
+
+    private String islike;
 
     public String getUserid() {
         return userid;
@@ -36,5 +39,13 @@ public class Friend {
 
     public void setFriendid(String friendid) {
         this.friendid = friendid;
+    }
+
+    public String getIslike() {
+        return islike;
+    }
+
+    public void setIslike(String islike) {
+        this.islike = islike;
     }
 }

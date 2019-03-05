@@ -1,27 +1,23 @@
 server:
-  port: 9008
+  port: 9010
 spring:
   application:
-    name: communitygroup-user
+    name: communitygroup-friend
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://121.248.48.100:3306/tensquare_user?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    url: jdbc:mysql://121.248.48.100:3306/tensquare_friend?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
     username: root
     password: root
   jpa:
     database: mysql
     show-sql: true
-  rabbitmq:
-    host: 121.248.48.100
-  redis:
-    host: 121.248.48.100
 jwt:
   config:
     key: jwttest
     ttl: 3600000
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://localhost:6868/eureka/
   instance:
     prefer-ip-address: true

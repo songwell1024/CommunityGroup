@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
 import javax.persistence.Table;
+import java.io.Serializable;
 
 /**
  * @program:
@@ -16,7 +17,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="tb_nofriend")
 @IdClass(NoFriend.class)    //表示联合主键，添加也可以，不添加也可以
-public class NoFriend {
+public class NoFriend implements Serializable {
     @Id
     private String userid;
     @Id

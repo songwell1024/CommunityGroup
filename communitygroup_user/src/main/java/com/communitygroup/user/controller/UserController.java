@@ -1,7 +1,9 @@
 package com.communitygroup.user.controller;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.communitygroup.user.pojo.Admin;
 import com.communitygroup.user.pojo.User;
 import com.communitygroup.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 import entity.PageResult;
 import entity.Result;
 import entity.StatusCode;
+import util.JwtUtil;
+
 /**
  * 控制器层
  * @author Administrator
@@ -28,6 +32,9 @@ public class UserController {
 
 	@Autowired
 	private UserService userService;
+
+	@Autowired
+	private JwtUtil jwtUtil;
 	
 	
 	/**
@@ -127,13 +134,23 @@ public class UserController {
 		return new Result(true, StatusCode.OK, "注册成功");
 	}
 
+	/**
+	 * 用户登录
+	 * @param user
+	 * @return
+	 */
 	@RequestMapping(value = "/login",method = RequestMethod.POST)
 	public Result login(@RequestBody User user){
-		User newUser = userService.findByPasswordAndMobile(user.getMobile(), user.getPassword());
-		if (newUser == null || "".equals(newUser)){
-			return new Result(false, StatusCode.LOGINERROR, "用户名密码错误");
+
+		User findUser = userService.findByPasswordAndMobile(user.getMobile(), user.getPassword());
+		if (findUser == null || "".equals(findUser)){
+			return new Result(false, StatusCode.LOGINERROR, "用户名或密码错误");
 		}
-		return new Result(true, StatusCode.OK, "登录成功");
+		String token = jwtUtil.createJWT(findUser.getId(), findUser.getMobile(), "user");
+		Map<String, String> map = new HashMap<>();
+		map.put("mobile", findUser.getMobile());
+		map.put("token", token);
+		return new Result(true,StatusCode.OK, "登录成功", map);
 	}
 	
 }
