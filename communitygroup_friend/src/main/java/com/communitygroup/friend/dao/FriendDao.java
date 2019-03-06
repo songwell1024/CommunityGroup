@@ -23,6 +23,8 @@ public interface FriendDao extends JpaRepository<Friend,String>, JpaSpecificatio
      */
     public Friend findByUseridAndFriendid(String userid, String friendid);
 
+    public void deleteByUseridAndFriendid(String userid, String friendid);
+
     /**
      * 更新喜欢状态
      * @param userid

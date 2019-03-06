@@ -1,7 +1,9 @@
 package com.communitygroup.friend.service;
 
 import com.communitygroup.friend.dao.FriendDao;
+import com.communitygroup.friend.dao.NoFriendDao;
 import com.communitygroup.friend.pojo.Friend;
+import com.communitygroup.friend.pojo.NoFriend;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -18,6 +20,9 @@ import org.springframework.transaction.annotation.Transactional;
 public class FriendService {
     @Autowired
     FriendDao friendDao;
+
+    @Autowired
+    NoFriendDao noFriendDao;
 
 
     public String addFriend(String userId, String friendId){
@@ -37,7 +42,35 @@ public class FriendService {
             friendDao.updateLike(friendId, userId,"1");
         }
         return "1";
-
     }
 
+    /**
+     * 添加非好友
+     * 返回0 表示不能重复添加
+     * @param userid
+     * @param friendid
+     * @return
+     */
+    public String addNoFriend(String userid, String friendid){
+        NoFriend noFriend = noFriendDao.findByUseridAndFriendid(userid, friendid);
+        if (noFriend != null){
+            return "0";
+        }
+        noFriend = new NoFriend();
+        noFriend.setUserid(userid);
+        noFriend.setFriendid(friendid);
+        noFriendDao.save(noFriend);
+        return "1";
+    }
+
+    /**
+     * 删除好友,然后添加黑名单
+     * @param userid
+     * @param friendid
+     */
+    public void deleteFriend(String userid, String friendid) {
+        friendDao.deleteByUseridAndFriendid(userid, friendid);
+        friendDao.updateLike(friendid,userid,"0");
+        addNoFriend(userid, friendid);
+    }
 }

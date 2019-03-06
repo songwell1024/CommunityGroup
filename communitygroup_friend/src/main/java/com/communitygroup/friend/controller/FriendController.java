@@ -1,6 +1,7 @@
 package com.communitygroup.friend.controller;
 
 import com.communitygroup.friend.pojo.Friend;
+import com.communitygroup.friend.pojo.NoFriend;
 import com.communitygroup.friend.service.FriendService;
 import entity.Result;
 import entity.StatusCode;
@@ -30,10 +31,11 @@ public class FriendController {
     @Autowired
     HttpServletRequest request;
 
+
     /**
      * 添加好友
      * @param friendid
-     * @param type
+     * @param type 1表示喜欢， 0 表示不喜欢
      * @return
      */
     @RequestMapping(value = "/like/{friendid}/{type}", method = RequestMethod.PUT)
@@ -48,10 +50,21 @@ public class FriendController {
                 return new Result(false, StatusCode.REPERROR, "不能重复添加好友");
             }
         }else {  //不喜欢
-
+            if (friendService.addNoFriend(claim.getId(), friendid).equals("0")){
+                return new Result(false, StatusCode.REPERROR, "不能重复添加非好友");
+            }
         }
         return new Result(true, StatusCode.OK, "添加好友成功");
     }
 
 
+    @RequestMapping(value = "/{friendid}", method = RequestMethod.DELETE)
+    public Result deleteFriend(@PathVariable String friendid){
+       Claims claims = (Claims) request.getAttribute("user_claim");
+       if (claims == null || !claims.get("roles").equals("user")){
+           return new Result(false, StatusCode.LOGINERROR, "权限不足");
+       }
+       friendService.deleteFriend(claims.getId(), friendid);
+        return new Result(true, StatusCode.OK, "删除好友成功");
+    }
 }
