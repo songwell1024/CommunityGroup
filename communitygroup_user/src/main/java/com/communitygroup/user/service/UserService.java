@@ -194,6 +194,24 @@ public class UserService {
 	}
 
 	/**
+	 * 更新粉丝数
+	 * @param userid
+	 * @param count
+	 */
+	public void updateFanscount(String userid, int count){
+		userDao.updateFanscount(userid, count);
+	}
+
+	/**
+	 * 更新关注数
+	 * @param userid
+	 * @param count
+	 */
+	public void updateFollowcount(String userid, int count){
+		userDao.updateFollowcount(userid, count);
+	}
+
+	/**
 	 * 动态条件构建
 	 * @param searchMap
 	 * @return

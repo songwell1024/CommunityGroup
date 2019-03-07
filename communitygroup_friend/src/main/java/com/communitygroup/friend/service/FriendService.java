@@ -1,5 +1,6 @@
 package com.communitygroup.friend.service;
 
+import com.communitygroup.friend.client.FriendClient;
 import com.communitygroup.friend.dao.FriendDao;
 import com.communitygroup.friend.dao.NoFriendDao;
 import com.communitygroup.friend.pojo.Friend;
@@ -24,6 +25,9 @@ public class FriendService {
     @Autowired
     NoFriendDao noFriendDao;
 
+    @Autowired
+    FriendClient friendClient;
+
 
     public String addFriend(String userId, String friendId){
         Friend friend = friendDao.findByUseridAndFriendid(userId, friendId);
@@ -35,6 +39,9 @@ public class FriendService {
         friend.setFriendid(friendId);
         friend.setIslike("0");
         friendDao.save(friend);
+        friendClient.updateFansCount(friendId,1);  //朋友的粉丝数+1
+        friendClient.updateFollowCount(userId, 1); //自己的关注数+1
+
 
         //判断对方是否也喜欢你，是的话就更新为相互喜欢
         if (friendDao.findByUseridAndFriendid(friendId, userId)!= null){
@@ -60,6 +67,8 @@ public class FriendService {
         noFriend.setUserid(userid);
         noFriend.setFriendid(friendid);
         noFriendDao.save(noFriend);
+        friendClient.updateFollowCount(userid, -1);
+        friendClient.updateFansCount(friendid,-1);
         return "1";
     }
 

@@ -6,6 +6,7 @@ import java.util.Map;
 import com.communitygroup.user.pojo.Admin;
 import com.communitygroup.user.pojo.User;
 import com.communitygroup.user.service.UserService;
+import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -19,6 +20,8 @@ import entity.PageResult;
 import entity.Result;
 import entity.StatusCode;
 import util.JwtUtil;
+
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * 控制器层
@@ -35,6 +38,9 @@ public class UserController {
 
 	@Autowired
 	private JwtUtil jwtUtil;
+
+	@Autowired
+	HttpServletRequest request;
 	
 	
 	/**
@@ -152,5 +158,39 @@ public class UserController {
 		map.put("token", token);
 		return new Result(true,StatusCode.OK, "登录成功", map);
 	}
+
+	/**
+	 * 更新粉丝数
+	 * @param userid
+	 * @param x
+	 */
+	@RequestMapping(value="/incfans/{userid}/{x}",method= RequestMethod.POST)
+	public void updateFansCount(@PathVariable String userid, @PathVariable int x){
+		Claims claims = (Claims) request.getAttribute("roles");
+		if (claims == null){
+			throw new RuntimeException("权限不足");
+		}
+		userService.updateFanscount(userid,x);
+	}
+
+	/**
+	 * 更新关注数
+	 * @param userid
+	 * @param x
+	 */
+	@RequestMapping(value="/incfollow/{userid}/{x}",method= RequestMethod.POST)
+	public void updateFollowCount(@PathVariable String userid, @PathVariable int x){
+		Claims claims = (Claims) request.getAttribute("roles");
+		if (claims == null){
+			throw new RuntimeException("权限不足");
+		}
+		userService.updateFollowcount(userid,x);
+	}
+
+
+
+
+
+
 	
 }

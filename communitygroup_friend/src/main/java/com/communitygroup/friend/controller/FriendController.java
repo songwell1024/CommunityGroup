@@ -1,5 +1,6 @@
 package com.communitygroup.friend.controller;
 
+import com.communitygroup.friend.client.FriendClient;
 import com.communitygroup.friend.pojo.Friend;
 import com.communitygroup.friend.pojo.NoFriend;
 import com.communitygroup.friend.service.FriendService;
@@ -32,6 +33,7 @@ public class FriendController {
     HttpServletRequest request;
 
 
+
     /**
      * 添加好友
      * @param friendid
@@ -58,6 +60,11 @@ public class FriendController {
     }
 
 
+    /**
+     * 删除好友
+     * @param friendid
+     * @return
+     */
     @RequestMapping(value = "/{friendid}", method = RequestMethod.DELETE)
     public Result deleteFriend(@PathVariable String friendid){
        Claims claims = (Claims) request.getAttribute("user_claim");
@@ -67,4 +74,6 @@ public class FriendController {
        friendService.deleteFriend(claims.getId(), friendid);
         return new Result(true, StatusCode.OK, "删除好友成功");
     }
+
+
 }
