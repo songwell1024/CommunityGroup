@@ -1,5 +1,6 @@
 package com.communitygroup.qa.client;
 
+import com.communitygroup.qa.client.impl.LabelClientImpl;
 import entity.Result;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @create: Created in 2019-03-01 15:06
  * @Modified by:
  **/
-@FeignClient("communitygroup-base")
+@FeignClient(value = "communitygroup-base",fallback = LabelClientImpl.class)
 @Component
 public interface LabelClient {
 

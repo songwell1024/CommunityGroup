@@ -12,6 +12,7 @@
         <module name="communitygroup_eureka" />
         <module name="communitygroup_friend" />
         <module name="communitygroup_gathering" />
+        <module name="communitygroup_manager" />
         <module name="communitygroup_qa" />
         <module name="communitygroup_recruit" />
         <module name="communitygroup_search" />
@@ -33,6 +34,7 @@
       <module name="communitygroup_eureka" options="-parameters" />
       <module name="communitygroup_friend" options="-parameters" />
       <module name="communitygroup_gathering" options="-parameters" />
+      <module name="communitygroup_manager" options="-parameters" />
       <module name="communitygroup_qa" options="-parameters" />
       <module name="communitygroup_recruit" options="-parameters" />
       <module name="communitygroup_search" options="-parameters" />

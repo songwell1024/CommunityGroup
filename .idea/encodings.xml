@@ -2,13 +2,13 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/com.communitygroup.friend" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communitygroup_article" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communitygroup_base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communitygroup_common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communitygroup_eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communitygroup_friend" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communitygroup_gathering" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/communitygroup_manager" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communitygroup_qa" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communitygroup_recruit" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/communitygroup_search" charset="UTF-8" />

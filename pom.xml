@@ -22,6 +22,7 @@
         <module>communitygroup_eureka</module>
         <module>com.communitygroup.friend</module>
         <module>communitygroup_friend</module>
+        <module>communitygroup_manager</module>
     </modules>
     <packaging>pom</packaging>
 

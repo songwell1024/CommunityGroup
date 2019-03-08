@@ -1,0 +1,37 @@
+server:
+  port: 9011
+spring:
+  application:
+    name: communitygroup‐manager #指定服务名
+eureka:
+  client:
+    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true
+zuul:
+  routes:
+    communitygroup-gathering: #活动
+      path: /gathering/** #配置请求URL的请求规则
+      serviceId: communitygroup‐gathering #指定Eureka注册中心中的服务id
+    communitygroup‐article: #文章
+      path: /article/** #配置请求URL的请求规则
+      serviceId: communitygroup‐article #指定Eureka注册中心中的服务id
+    communitygroup‐base: #基础
+      path: /base/** #配置请求URL的请求规则
+      serviceId: communitygroup‐base #指定Eureka注册中心中的服务id
+    communitygroup‐friend: #交友
+      path: /friend/** #配置请求URL的请求规则
+      serviceId: communitygroup‐friend #指定Eureka注册中心中的服务id
+    communitygroup‐qa: #问答
+      path: /qa/** #配置请求URL的请求规则
+      serviceId: communitygroup‐qa #指定Eureka注册中心中的服务id
+    communitygroup‐recruit: #招聘
+      path: /recruit/** #配置请求URL的请求规则
+      serviceId: communitygroup‐recruit #指定Eureka注册中心中的服务id
+    communitygroup‐spit: #吐槽
+      path: /spit/** #配置请求URL的请求规则
+      serviceId: communitygroup‐spit #指定Eureka注册中心中的服务id
+    communitygroup‐user: #用户
+      path: /user/** #配置请求URL的请求规则
+      serviceId: communitygroup‐user #指定Eureka注册中心中的服务id
