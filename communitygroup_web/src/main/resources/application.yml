@@ -1,8 +1,8 @@
 server:
-  port: 9011
+  port: 9012
 spring:
   application:
-    name: communitygroup-manager #指定服务名
+    name: communitygroup-web #指定服务名
 eureka:
   client:
     serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址

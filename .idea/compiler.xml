@@ -19,6 +19,7 @@
         <module name="communitygroup_sms" />
         <module name="communitygroup_spit" />
         <module name="communitygroup_user" />
+        <module name="communitygroup_web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -41,6 +42,7 @@
       <module name="communitygroup_sms" options="-parameters" />
       <module name="communitygroup_spit" options="-parameters" />
       <module name="communitygroup_user" options="-parameters" />
+      <module name="communitygroup_web" options="-parameters" />
     </option>
   </component>
 </project>
