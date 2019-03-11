@@ -3,7 +3,6 @@ package com.communitygroup.web.filter;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
-import org.apache.http.protocol.RequestContent;
 
 import javax.servlet.http.HttpServletRequest;
 
