@@ -18,12 +18,11 @@
         <module>communitygroup_search</module>
         <module>communitygroup_user</module>
         <module>communitygroup_sms</module>
-        <module>communitygroupgroup_eureka</module>
         <module>communitygroup_eureka</module>
-        <module>com.communitygroup.friend</module>
         <module>communitygroup_friend</module>
         <module>communitygroup_manager</module>
         <module>communitygroup_web</module>
+        <module>communitygroup_config</module>
     </modules>
     <packaging>pom</packaging>
 

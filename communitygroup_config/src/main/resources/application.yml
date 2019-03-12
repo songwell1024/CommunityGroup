@@ -1,0 +1,16 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: communitygroup-configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/songwell1024/config-repo.git
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:6868/eureka/
+  instance:
+    prefer-ip-address: true
