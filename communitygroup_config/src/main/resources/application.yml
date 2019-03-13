@@ -8,6 +8,13 @@ spring:
       server:
         git:
           uri: https://github.com/songwell1024/config-repo.git
+  rabbitmq:
+    host: 121.248.48.100
+management: #暴露触发消息总线的地址
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
 eureka:
   client:
     serviceUrl:
