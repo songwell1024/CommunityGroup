@@ -1,0 +1,8 @@
+com\communitygroup\base\BaseApplication.class
+com\communitygroup\base\service\LabelService.class
+com\communitygroup\base\service\LabelService$2.class
+com\communitygroup\base\dao\LabelDao.class
+com\communitygroup\base\pojo\Label.class
+com\communitygroup\base\controller\BaseExceptionHandler.class
+com\communitygroup\base\controller\LabelController.class
+com\communitygroup\base\service\LabelService$1.class
