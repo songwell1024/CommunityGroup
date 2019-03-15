@@ -4,4 +4,4 @@ spring:
       name: gathering
       profile: test
       label: master
-      uri: http://127.0.0.1:12000
+      uri: http://121.248.48.100:12000

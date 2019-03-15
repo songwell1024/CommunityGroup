@@ -2,7 +2,7 @@ package com.communitygroup.qa.controller;
 import java.util.List;
 import java.util.Map;
 
-import com.communitygroup.qa.om.communitygroup.qa.client.LabelClient;
+import com.communitygroup.qa.client.LabelClient;
 import com.communitygroup.qa.pojo.Problem;
 import com.communitygroup.qa.service.ProblemService;
 import io.jsonwebtoken.Claims;

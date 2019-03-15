@@ -1,0 +1,14 @@
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\pojo\Problem.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\config\JwtInterceptorConfig.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\dao\ProblemDao.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\service\ProblemService.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\QaApplication.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\client\LabelClient.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\dao\ReplyDao.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\controller\ReplyController.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\pojo\Reply.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\controller\BaseExceptionController.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\interceptor\JwtInterceptor.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\controller\ProblemController.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\client\impl\LabelClientImpl.java
+E:\IDEA-workspace\CommunityGroup\communitygroup_qa\src\main\java\com\communitygroup\qa\service\ReplyService.java
