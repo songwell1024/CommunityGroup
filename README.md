@@ -111,5 +111,20 @@ Spring Security提供了BCryptPasswordEncoder类,实现Spring的PasswordEncoder�
 默认使用spring security后，所有的地址都被spring security所控制了，所有的地址都会被拦截，我们目前只是需要用到BCrypt密码加密的部分，所以我们要添加一个配置类，配置为所有地址都可以匿名访问。
 
 这个去官网看看到底是怎么回事就可以。
-### 详细待更
+### 基于JWT的Token验证
+
+使用JWT做微服务鉴权，统一配置拦截器，在拦截器中统一对Token信息进行验证解析，解析出来的用户信息放入Request域中，在具体的web层获取使用。
+
+### Spring Cloud
+
+主要使用的组件包括如下：
+
+| 模块                            | 功能                                                         |
+| ------------------------------- | ------------------------------------------------------------ |
+| 服务发现——Netflix Eureka        | 微服务的注册与发现                                           |
+| 服务调用——Netflix Feign         | 微服务模块间的调用，默认负载均衡                             |
+| 熔断器——Netflix Hystrix         | 防止服务调用时发生雪崩效应                                   |
+| 服务网关——Netflix Zuul          | 所有访问微服务的网关，在网关层对用户的Token进行了转发,对管理员身份做了验证 |
+| 分布式配置——Spring Cloud Config | 所有微服务配置的管理中心。配置中心使用的github做仓储，在config这个微服务下有仓库地址 |
+| 消息总线 —— Spring Cloud Bus    | 自动通知微服务的配置的改变                                   |
 
