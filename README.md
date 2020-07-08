@@ -1,6 +1,6 @@
 # CommunityGroup
 ## 基于spring全家桶的微服务项目
-### 实现提问，吐槽，站内信，赞踩，关注，作业，搜索等功能
+### 实现提问，吐槽，站内信，赞踩，关注，作业，搜索，安全测试工具等功能
 ### 该项目基于Spring Boot+ Spring Cloud框架，使用Spring Security进行权限管理，使用MySQL和MongoDB存储数据，使用Redis进行缓存，使用RabbitMq实现短信，站内信等异步发送，使用Elasticsearch实现了站内的全文搜索。
 ### 开发环境
 - JDK1.8
@@ -16,7 +16,7 @@
 | :----------------------: | :------------: |
 |  communitygroup_common   |    公共模块    |
 |  communitygroup_article  |   文章微服务   |
-|   communitygroup_base    |   基础微服务   |
+|   communitygroup_base    |   基础工具微服务   |
 |  communitygroup_friend   |   交友微服务   |
 | communitygroup_gathering |   活动微服务   |
 |    communitygroup_qa     |   问答微服务   |
@@ -102,6 +102,7 @@ MySQLSource目录下是本项目的SQL建表文件
 ### RabbitMQ消息队列
 
 直接使用的direct模式，然后调用阿里大于的接口来发送短信（Ps现在阿里大于不给个人用户开放了，我是很早前申请的，开发的时候还能用）
+同时安全测试工具任务以RabbitMQ方式异步执行
 
 ### Spring Security密码加密
 
