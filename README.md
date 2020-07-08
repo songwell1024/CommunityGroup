@@ -1,7 +1,7 @@
 # CommunityGroup
 ## 基于spring全家桶的微服务项目
-### 实现提问，吐槽，站内信，赞踩，关注，作业，搜索，安全测试工具等功能
-### 该项目基于Spring Boot+ Spring Cloud框架，使用Spring Security进行权限管理，使用MySQL和MongoDB存储数据，使用Redis进行缓存，使用RabbitMq实现短信，站内信等异步发送，使用Elasticsearch实现了站内的全文搜索。
+### 实现参考文章、提问，吐槽，站内信，赞踩，关注，作业，搜索，安全测试工具等功能
+### 该项目基于Spring Boot+ Spring Cloud框架，使用Spring Security进行权限管理，使用MySQL和MongoDB存储数据，使用Redis进行缓存，使用RabbitMq实现测试任务、短信，站内信等异步发送，使用Elasticsearch实现了站内的全文搜索。
 ### 开发环境
 - JDK1.8
 - 数据库mysql 5.7
